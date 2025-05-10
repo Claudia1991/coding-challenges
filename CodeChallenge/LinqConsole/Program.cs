@@ -58,3 +58,7 @@ Console.WriteLine("Result:" + exercise6.Execute());
 Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------------------------------");
 Console.WriteLine("Exercise 7: Count how many times each digit appears in a list of numbers:");
 Console.WriteLine("Write a C# method that counts how many times each digit (0-9) appears in a list of integers. The method should return a dictionary where the keys are the digits and the values are the counts. For example, given the input [123, 456, 123], the output should be a dictionary like {0: 0, 1: 2, 2: 2, 3: 2, 4: 1, 5: 1, 6: 1}. Use LINQ to count the occurrences of each digit in the list. Function signature: Dictionary<int, int> CountDigitOccurrences(List<int> numbers)");
+Exercise7 exercise7 = new Exercise7();
+exercise7.PrepareData();
+Console.WriteLine(exercise7.ShowData(exercise7.numbers));
+Console.WriteLine("Result:" + exercise7.Execute());
