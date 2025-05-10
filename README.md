@@ -589,6 +589,10 @@ void StartTimer()
 
 ### 🧪 Write unit tests for a calculator class
 
+### 🧵 Test edge cases (null input, empty list, large inputs)
+
+### 🔁 Use `[Theory]` and `[InlineData]` in xUnit for multiple test cases
+
 **Description:**
 Write unit tests to verify the correctness of arithmetic operations in a calculator class.
 
@@ -607,38 +611,4 @@ class Calculator {
     int Multiply(int a, int b);
     double Divide(int a, int b);
 }
-```
-
-### 🧵 Test edge cases (null input, empty list, large inputs)
-
-**Description:**
-Create unit tests for a method that processes a list of integers, focusing on edge scenarios.
-
-**Requirements:**
-
-- Handle `null` input.
-- Handle empty lists.
-- Test with very large lists (e.g., 100,000+ items).
-- Validate output correctness and performance.
-
-**Function Signature:**
-
-```csharp
-int ProcessList(List<int> numbers);
-```
-
-### 🔁 Use `[Theory]` and `[InlineData]` in xUnit for multiple test cases
-
-**Description:**
-Use parameterized testing with `[Theory]` and `[InlineData]` to test a method like `IsPrime`.
-
-**Requirements:**
-
-- Test with various numbers: primes, non-primes, edge cases.
-- Clearly separate input and expected result for each test case.
-
-**Function Signature:**
-
-```csharp
-bool IsPrime(int number);
 ```
