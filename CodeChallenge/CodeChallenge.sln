@@ -17,9 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5Recursion", "1.5Recursio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Logic  Problem Solving Challenges", "2.Logic  Problem Solving Challenges", "{AA7AD9D2-FE9D-4F5F-AD03-60226C7DB157}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.LINQ and Collections", "3.LINQ and Collections", "{293B631F-9DEB-4A5D-9319-26E347B87459}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Object-Oriented Programming", "4.Object-Oriented Programming", "{293B631F-9DEB-4A5D-9319-26E347B87459}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Object-Oriented Programming", "4.Object-Oriented Programming", "{686F0954-DBC7-4CD1-B5E9-29F5C2861761}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.LINQ and Collections", "3.LINQ and Collections", "{686F0954-DBC7-4CD1-B5E9-29F5C2861761}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Multithreading Asynchronous Programming", "5.Multithreading Asynchronous Programming", "{9B092C76-EB7B-4C2C-8613-05F627B57395}"
 EndProject
@@ -28,6 +28,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{927E3D1A-2554-48D9-B67A-96269DD46A33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesTests", "ServicesTests\ServicesTests.csproj", "{D4F1FE14-2C81-4F21-A9C1-0E045A8C7057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqConsole", "LinqConsole\LinqConsole.csproj", "{3CAD45E9-40BE-4D43-8B02-3609D9957220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqClasses", "LinqClasses\LinqClasses.csproj", "{837B59FD-477C-4EBB-81C1-204D1897B817}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,14 @@ Global
 		{D4F1FE14-2C81-4F21-A9C1-0E045A8C7057}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F1FE14-2C81-4F21-A9C1-0E045A8C7057}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F1FE14-2C81-4F21-A9C1-0E045A8C7057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CAD45E9-40BE-4D43-8B02-3609D9957220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAD45E9-40BE-4D43-8B02-3609D9957220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAD45E9-40BE-4D43-8B02-3609D9957220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAD45E9-40BE-4D43-8B02-3609D9957220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837B59FD-477C-4EBB-81C1-204D1897B817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837B59FD-477C-4EBB-81C1-204D1897B817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837B59FD-477C-4EBB-81C1-204D1897B817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837B59FD-477C-4EBB-81C1-204D1897B817}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +67,8 @@ Global
 		{2239A403-A592-4440-AF63-0BF6A0550FB8} = {812BB6CF-284E-45CE-A48B-27A99E21D38F}
 		{927E3D1A-2554-48D9-B67A-96269DD46A33} = {0355FEAB-23BC-4A93-8949-50FA01DAD17A}
 		{D4F1FE14-2C81-4F21-A9C1-0E045A8C7057} = {0355FEAB-23BC-4A93-8949-50FA01DAD17A}
+		{3CAD45E9-40BE-4D43-8B02-3609D9957220} = {686F0954-DBC7-4CD1-B5E9-29F5C2861761}
+		{837B59FD-477C-4EBB-81C1-204D1897B817} = {686F0954-DBC7-4CD1-B5E9-29F5C2861761}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59599D3B-A11C-46B6-8096-CA96452A2B3E}
