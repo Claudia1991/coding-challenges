@@ -387,47 +387,6 @@ Dictionary<int, int> CountDigitOccurrences(List<int> numbers)
 
 ### 4. Object-Oriented Programming
 
-#### Design a vending machine class
-
-**Description:**
-Simulate a vending machine with a list of available products. Users can insert money, select products, and receive change.
-**Requirements:**
-
-- Add products with name and price
-- Insert money
-- Select product
-- Return balance after purchase
-- Handle insufficient funds and unavailable products
-  **Function Signature:**
-
-```csharp
-class VendingMachine {
-    void AddProduct(string name, double price);
-    void InsertMoney(double amount);
-    void SelectProduct(string product);
-    double GetBalance();
-}
-```
-
-#### Implement an elevator system
-
-**Description:**
-Simulate an elevator system for a building with multiple floors. Users can request the elevator, specify destination, and check current floor.
-**Requirements:**
-
-- Handle floor requests
-- Move elevator between floors
-- Reject invalid or redundant requests
-  **Function Signature:**
-
-```csharp
-class Elevator {
-    void RequestElevator(int floor);
-    void MoveToFloor(int destination);
-    int GetCurrentFloor();
-}
-```
-
 #### Design a logger with different logging strategies
 
 **Description:**
