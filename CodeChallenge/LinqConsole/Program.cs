@@ -26,11 +26,13 @@ Exercise2 exercise2 = new Exercise2();
 exercise2.PrepareData();
 Console.WriteLine(exercise2.ShowData(exercise2.nestedList));
 Console.WriteLine("Result:" + exercise2.Execute());
-
 Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------------------------------");
 Console.WriteLine("Exercise 3: Get the top N most expensive products from a list:");
 Console.WriteLine("Write a C# method that returns the top N most expensive products from a list of products. Each product has a name and a price. For example, given a list of products [{ \"Product A\", 30 }, { \"Product B\", 50 }, { \"Product C\", 20 }] and N = 2, the method should return the two most expensive products: [{ \"Product B\", 50 }, { \"Product A\", 30 }]. Use LINQ's OrderByDescending to sort and select the top N products. Function signature: List<Product> GetTopNExpensiveProducts(List<Product> products, int N)");
-Console.WriteLine("EXERCISE");
+Exercise3 exercise3 = new Exercise3();
+exercise3.PrepareData();
+Console.WriteLine(exercise3.ShowData(exercise3.products));
+Console.WriteLine("Result:" + exercise3.Execute());
 Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------------------------------");
 Console.WriteLine("Exercise 4: Find duplicate names across multiple collections:");
 Console.WriteLine("Write a C# method that finds duplicate names across multiple collections (e.g., lists) of strings. The method should return a list of names that appear in more than one collection. For example, given the input collections [\"Alice\", \"Bob\", \"Charlie\"] and [\"Bob\", \"David\", \"Eve\"], the output should be [\"Bob\"]. Use LINQ to compare elements across collections and identify duplicates. Function signature: List<string> FindDuplicateNames(List<List<string>> collections)");
