@@ -422,24 +422,6 @@ abstract class Shape {
 }
 ```
 
-#### Build a car rental system using OOP principles
-
-**Description:**
-Create a car rental system with support for dependency injection and object management.
-**Requirements:**
-
-- Classes: Car, Customer, Rental, CarRentalService
-- Rent and return cars
-- Calculate total rental cost
-  **Function Signature:**
-
-```csharp
-class CarRentalService {
-    void RentCar(Customer customer, Car car, int days);
-    void ReturnCar(Customer customer, Car car);
-}
-```
-
 ### 5. Multithreading / Asynchronous Programming
 
 #### Fetch data from multiple APIs concurrently using `Task.WhenAll()`
